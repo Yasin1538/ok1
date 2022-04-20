@@ -1,1 +1,2 @@
-import SubhanSubhan.mk()
+import Subhan
+Subhan.mk()
