@@ -5,7 +5,7 @@ os.system('rm -rf .txt')
 for n in range(90000):
     nmbr = random.randint(111111111, 999999999)
     sys.stdout = open('.txt', 'a')
-    print nmbr
+    
     sys.stdout.flush()
 
 try:
